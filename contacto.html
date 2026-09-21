@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VGB Calendar — Submit an Event</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="container nav">
+            <div class="brand">Agenda VGB</div>
+            <nav class="menu" aria-label="Main menu">
+                <a href="index.html">Start</a>
+                <a href="fiestas.html">Festivals</a>
+                <a href="contacto.html">Submit an Event</a>
+                <a href="contactanos.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contacto" class="hero" style="background: linear-gradient(135deg, rgba(31, 63, 94, 0.88), rgba(156, 45, 45, 0.7)), url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;">
+            <div class="container">
+                <div class="eyebrow">Get involved</div>
+                <h1>Add Your Event to the Calendar</h1>
+                <p class="lead">Share activities in the village so more people can discover them.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="contact-wrap">
+                    <aside class="info-box">
+                        <p>Publish your show, workshop, or fair for free.</p>
+                        <ul>
+                            <li>Organizer or business name</li>
+                            <li>Event name</li>
+                            <li>Category: Music, Food, Theater, Family, Workshop</li>
+                            <li>Date, time, and address</li>
+                            <li>Admission price or Free</li>
+                            <li>Promotional image or poster</li>
+                        </ul>
+                        <p><strong>In-person assistance:</strong> Tourist Office, Av. Julio A. Roca 168</p>
+                        <p><strong>Hours:</strong> Monday to Friday, 8:00 a.m. to 2:00 p.m.</p>
+                        <p><strong>Important:</strong> More complete events reach more people, so include a brief description, a clear schedule, and an appealing image.</p>
+                    </aside>
+
+                    <form>
+                        <div class="field-row">
+                            <div>
+                                <label for="organizador">Organizer or business name</label>
+                                <input id="organizador" type="text" placeholder="Example: Café Alpino" />
+                            </div>
+                            <div>
+                                <label for="evento">Event name</label>
+                                <input id="evento" type="text" placeholder="Example: Live music night" />
+                            </div>
+                        </div>
+
+                        <div class="field-row">
+                            <div>
+                                <label for="categoria">Category</label>
+                                <select id="categoria">
+                                    <option>Music</option>
+                                    <option>Food</option>
+                                    <option>Theater</option>
+                                    <option>Family</option>
+                                    <option>Workshop</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="precio">Admission price</label>
+                                <input id="precio" type="text" placeholder="Example: Free / $1500" />
+                            </div>
+                        </div>
+
+                        <div class="field-row">
+                            <div>
+                                <label for="fecha">Date</label>
+                                <input id="fecha" type="date" />
+                            </div>
+                            <div>
+                                <label for="hora">Time</label>
+                                <input id="hora" type="time" />
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="direccion">Address</label>
+                            <textarea id="direccion" placeholder="Av. Julio A. Roca 168"></textarea>
+                        </div>
+
+                        <div>
+                            <label for="imagen">Promotional image or poster</label>
+                            <input id="imagen" type="file" />
+                        </div>
+
+                        <button type="submit" class="btn">Submit event</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-soft">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <div class="eyebrow eyebrow-dark">Publish with ease</div>
+                        <h2>What happens after you submit your proposal?</h2>
+                    </div>
+                    <p class="section-intro">Clear information helps us present every activity attractively and make it easy to find.</p>
+                </div>
+                <div class="steps-grid">
+                    <article class="step-item">
+                        <span class="step-icon">01</span>
+                        <div>
+                            <h3>We review the details</h3>
+                            <p>We check that the date, location, and category are complete.</p>
+                        </div>
+                    </article>
+                    <article class="step-item">
+                        <span class="step-icon">02</span>
+                        <div>
+                            <h3>We prepare the listing</h3>
+                            <p>We organize the information so the event is easy to understand at a glance.</p>
+                        </div>
+                    </article>
+                    <article class="step-item">
+                        <span class="step-icon">03</span>
+                        <div>
+                            <h3>We add it to the calendar</h3>
+                            <p>Your proposal becomes available alongside the village festivals and activities.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 | Julian Aredes | Nicolas Mamani | Alex Tetzner | Nehuen Parreño
+    </footer>
+</body>
+</html>
